@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+
+# Local secrets (keep .env.example tracked)
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+*.swp
